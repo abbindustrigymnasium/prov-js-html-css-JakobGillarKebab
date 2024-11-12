@@ -10,7 +10,14 @@
     <!-- Här ska din HTML kod vara -->
 
     <script>
-        // Här ska din JavaScript kod vara
+        let numbers = [12, 25, 37, 43, 59, 61]
+        let evenNumbers = numbers.filter(filterEvenNumber)
+        function filterEvenNumber(number) {
+            if (number % 2 == 0) {
+                return number
+            }
+        }
+        console.log(evenNumbers)
 
 
     </script>
